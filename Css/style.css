@@ -249,4 +249,30 @@
   color: #2e63a4;
 }
 
+@media only screen and (max-width: 768px) {
+  #header {
+    justify-content: center;
+  }
+  #header nav {
+    display: none;
+  }
+  #main .seleccion .buscador input {
+    width: 100%;
+  }
+  #main #piratas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #main #marines {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #footer .contenedor {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    height: 300px;
+  }
+  #footer .contacto {
+    margin-top: 280px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
